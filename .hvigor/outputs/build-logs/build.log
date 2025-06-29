@@ -17380,3 +17380,1282 @@ Error Message: Unknown resource name 'logo'. At File: /Users/quayuzhong/Desktop/
 [2025-06-29T22:42:01.092] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2025-06-29T22:42:01.092] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2025-06-29T22:42:01.092] [DEBUG] debug-file - worker[9] exits with exit code 1.
+[2025-06-29T22:57:39.399] [DEBUG] debug-file - session manager: set active socket. socketId=wS4n6oyMQzTjCTO6AAAR
+[2025-06-29T22:57:39.410] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-29T22:57:39.430] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-06-29T22:57:39.436] [DEBUG] debug-file - Cache service initialization finished in 6 ms 
+[2025-06-29T22:57:39.451] [DEBUG] debug-file - hvigorfile, resolving /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/hvigorfile.ts
+[2025-06-29T22:57:39.466] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-06-29T22:57:39.466] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-06-29T22:57:39.471] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-06-29T22:57:39.471] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-06-29T22:57:39.471] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-06-29T22:57:39.471] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-06-29T22:57:39.472] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  }
+} in this build.
+[2025-06-29T22:57:39.476] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-06-29T22:57:39.479] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-06-29T22:57:39.505] [DEBUG] debug-file - Sdk init in 29 ms 
+[2025-06-29T22:57:39.513] [DEBUG] debug-file - Project task initialization takes 7 ms 
+[2025-06-29T22:57:39.513] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-06-29T22:57:39.513] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/hvigorfile.ts
+[2025-06-29T22:57:39.513] [DEBUG] debug-file - hvigorfile, resolve finished /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/hvigorfile.ts
+[2025-06-29T22:57:39.519] [DEBUG] debug-file - hvigorfile, resolving /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/hvigorfile.ts
+[2025-06-29T22:57:39.521] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-06-29T22:57:39.521] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-06-29T22:57:39.524] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-06-29T22:57:39.524] [DEBUG] debug-file - Target 'default' config: {}
+[2025-06-29T22:57:39.524] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Target 'default' config: {}
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": false,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      }
+    }
+  }
+}
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Target 'default' config: {}
+[2025-06-29T22:57:39.525] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-06-29T22:57:39.526] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2025-06-29T22:57:39.526] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2025-06-29T22:57:39.526] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-06-29T22:57:39.526] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2025-06-29T22:57:39.532] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2025-06-29T22:57:39.532] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-06-29T22:57:39.532] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/hvigorfile.ts
+[2025-06-29T22:57:39.532] [DEBUG] debug-file - hvigorfile, resolve finished /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/hvigorfile.ts
+[2025-06-29T22:57:39.582] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 49 ms 
+[2025-06-29T22:57:39.582] [DEBUG] debug-file - project has submodules:entry
+[2025-06-29T22:57:39.583] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-06-29T22:57:39.585] [DEBUG] debug-file - load to the disk finished
+[2025-06-29T22:57:39.586] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-06-29T22:57:39.586] [DEBUG] debug-file - Module HeiMa_music Collected Dependency: 
+[2025-06-29T22:57:39.586] [DEBUG] debug-file - Module HeiMa_music's total dependency: 0
+[2025-06-29T22:57:39.586] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-06-29T22:57:39.587] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-06-29T22:57:39.587] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-06-29T22:57:39.588] [DEBUG] debug-file - Configuration phase cost:150 ms 
+[2025-06-29T22:57:39.589] [DEBUG] debug-file - Configuration task cost before running: 167 ms 
+[2025-06-29T22:57:39.590] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.590] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.591] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-06-29T22:57:39.592] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.592] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.225128173828125
+[2025-06-29T22:57:39.592] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-06-29T22:57:39.593] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.593] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.593] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-06-29T22:57:39.594] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:39.594] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.05149078369140625
+[2025-06-29T22:57:39.594] [DEBUG] debug-file - runTaskFromQueue task cost before running: 172 ms 
+[2025-06-29T22:57:39.594] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2025-06-29T22:57:39.595] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.595] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.595] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-06-29T22:57:39.596] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:39.596] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.596] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.084075927734375
+[2025-06-29T22:57:39.596] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2025-06-29T22:57:39.597] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.597] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.598] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-06-29T22:57:39.598] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.598] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.598] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.037017822265625
+[2025-06-29T22:57:39.598] [DEBUG] debug-file - runTaskFromQueue task cost before running: 176 ms 
+[2025-06-29T22:57:39.598] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-06-29T22:57:39.599] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.599] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.599] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-06-29T22:57:39.600] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.600] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1002960205078125
+[2025-06-29T22:57:39.600] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-06-29T22:57:39.601] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.601] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.601] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-06-29T22:57:39.601] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:39.602] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.602] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.088104248046875
+[2025-06-29T22:57:39.602] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-06-29T22:57:39.603] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.603] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.603] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-06-29T22:57:39.603] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.603] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.603] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.03765869140625
+[2025-06-29T22:57:39.603] [DEBUG] debug-file - runTaskFromQueue task cost before running: 182 ms 
+[2025-06-29T22:57:39.603] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-06-29T22:57:39.604] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.604] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.604] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-06-29T22:57:39.605] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:39.605] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.605] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.2060394287109375
+[2025-06-29T22:57:39.605] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgContextInfo...  
+[2025-06-29T22:57:39.607] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.607] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.609] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-06-29T22:57:39.609] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/build/cache/default/integrated_hsp/integratedHspCache.json' does not exist.
+[2025-06-29T22:57:39.609] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.609] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.609] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.610] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.10713958740234375
+[2025-06-29T22:57:39.610] [DEBUG] debug-file - runTaskFromQueue task cost before running: 188 ms 
+[2025-06-29T22:57:39.610] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 1 ms 
+[2025-06-29T22:57:39.610] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.610] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.611] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-06-29T22:57:39.611] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.611] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.611] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.03806304931640625
+[2025-06-29T22:57:39.611] [DEBUG] debug-file - runTaskFromQueue task cost before running: 189 ms 
+[2025-06-29T22:57:39.611] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-06-29T22:57:39.611] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.611] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.612] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-06-29T22:57:39.612] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.612] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.13077545166015625
+[2025-06-29T22:57:39.612] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2025-06-29T22:57:39.613] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.613] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.614] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-06-29T22:57:39.614] [DEBUG] debug-file - File: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-06-29T22:57:39.615] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:39.615] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/syscap/default/rpcid.sc' does not exist.
+[2025-06-29T22:57:39.616] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.616] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.616] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.616] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.13019561767578125
+[2025-06-29T22:57:39.616] [DEBUG] debug-file - runTaskFromQueue task cost before running: 194 ms 
+[2025-06-29T22:57:39.616] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2025-06-29T22:57:39.617] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.617] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.618] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-06-29T22:57:39.619] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.619] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.10552978515625
+[2025-06-29T22:57:39.619] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-06-29T22:57:39.620] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.620] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.620] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-06-29T22:57:39.622] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 2 ms .
+[2025-06-29T22:57:39.623] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.19327545166015625
+[2025-06-29T22:57:39.623] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-06-29T22:57:39.624] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.624] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.624] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2025-06-29T22:57:39.624] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:39.625] [DEBUG] debug-file - entry:default@ProcessStartupConfig is not up-to-date, since the output file '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/startup/default/startup_config.json' does not exist.
+[2025-06-29T22:57:39.625] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.625] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.625] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.625] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.212921142578125
+[2025-06-29T22:57:39.625] [DEBUG] debug-file - runTaskFromQueue task cost before running: 204 ms 
+[2025-06-29T22:57:39.626] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 2 ms 
+[2025-06-29T22:57:39.626] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.626] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.626] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-06-29T22:57:39.626] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.626] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.627] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.0526885986328125
+[2025-06-29T22:57:39.627] [DEBUG] debug-file - runTaskFromQueue task cost before running: 205 ms 
+[2025-06-29T22:57:39.627] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2025-06-29T22:57:39.628] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.628] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.629] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-06-29T22:57:39.631] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-06-29T22:57:39.632] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.632] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.135101318359375
+[2025-06-29T22:57:39.633] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2025-06-29T22:57:39.634] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.634] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.635] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-06-29T22:57:39.640] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 3 ms .
+[2025-06-29T22:57:39.640] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.6416015625
+[2025-06-29T22:57:39.641] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-06-29T22:57:39.641] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.641] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.642] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-06-29T22:57:39.642] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.643] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.1353912353515625
+[2025-06-29T22:57:39.643] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2025-06-29T22:57:39.643] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.643] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.644] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-06-29T22:57:39.645] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-06-29T22:57:39.652] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 7 ms .
+[2025-06-29T22:57:39.652] [DEBUG] debug-file - entry : default@CompileResource cost memory -4.337181091308594
+[2025-06-29T22:57:39.652] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2025-06-29T22:57:39.653] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.653] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.654] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-06-29T22:57:39.654] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:39.654] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.654] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.06232452392578125
+[2025-06-29T22:57:39.655] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2025-06-29T22:57:39.655] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.655] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.656] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-06-29T22:57:39.656] [DEBUG] debug-file - obfuscationOptions: undefined
+[2025-06-29T22:57:39.658] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets' has been changed.
+[2025-06-29T22:57:39.658] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 2 ms .
+[2025-06-29T22:57:39.664] [DEBUG] debug-file - build config:
+[2025-06-29T22:57:39.664] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/base/profile',
+  etsLoaderPath: '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/build-tools/ets-loader',
+  modulePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music',
+  compileSdkVersion: 18,
+  compatibleSdkVersion: 18,
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***c',
+  etsLoaderVersion: '5.1.0.110',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '59ffc978434775850d61e24c568587d2',
+  externalApiPaths: [ '/Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/generated/profile/default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 18,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: {
+    caseSensitiveCheck: true,
+    useNormalizedOHMUrl: true,
+    noExternalImportByPath: true
+  },
+  buildDir: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build',
+  deviceTypes: [ 'phone', 'tablet', '2in1', 'car', 'wearable', 'tv' ],
+  useNormalizedOHMUrl: true,
+  pkgContextInfo: {
+    '@ohos/hypium': {
+      packageName: '@ohos/hypium',
+      bundleName: '*****',
+      moduleName: '',
+      version: '1.0.21',
+      entryPath: 'index.js',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    '@ohos/hamock': {
+      packageName: '@ohos/hamock',
+      bundleName: '*****',
+      moduleName: '',
+      version: '1.0.0',
+      entryPath: 'index.ets',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    entry: {
+      packageName: 'entry',
+      bundleName: '*****',
+      moduleName: '',
+      version: '',
+      entryPath: 'src/main/',
+      isSO: false,
+      dependencyAlias: ''
+    }
+  },
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: {
+    requestPermissions: [ [Object], [Object] ],
+    definePermissions: undefined
+  },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  useTscResolve: false,
+  singleFileEmit: false,
+  userProjectConfig: {
+    autoLazyImport: false,
+    allowEmptyBundleName: false,
+    reExportCheckMode: 'noCheck'
+  },
+  autoLazyImport: false,
+  allowEmptyBundleName: false,
+  reExportCheckMode: 'noCheck',
+  arkCompileCachePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/cache/default/default@CompileArkTS/esmodule',
+  aceModuleJsonPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ark_module.json',
+  appResource: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ResourceTable.txt',
+  rawFileResource: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/rawfile',
+  resourceTableHash: '0e5979b5d71291586313b19ff9930263',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:18:5.1.0.110:Release',
+  aceModuleRoot: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/supervisual',
+  aceBuildJson: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/loader.json',
+  cachePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/cache/default/default@CompileArkTS/esmodule/debug',
+  aceModuleBuild: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    },
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/src/ohosTest/ets': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    },
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    },
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    },
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music': {
+      moduleName: 'HeiMa_music',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    }
+  },
+  pkgJsonFileHash: 'e7ccba98719fd89b39b3cfc46f62493a',
+  allModulePaths: [ '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/mock/mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  uiTransformOptimization: false,
+  otherPaths: {
+    'entry/*': [ '../*', '../../../build/default/generated/profile/default/*' ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-06-29T22:57:39.665] [DEBUG] debug-file - Compile arkts with external api path: /Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets
+[2025-06-29T22:57:39.665] [DEBUG] debug-file - default@CompileArkTS work[16] is submitted.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - default@CompileArkTS work[16] is pushed to ready queue.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - default@CompileArkTS work[16] has been dispatched to worker[4].
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - default@CompileArkTS work[16] is dispatched.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - CopyResources startTime: 1300057610287375
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - default@CompileArkTS work[17] is submitted.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - default@CompileArkTS work[17] is pushed to ready queue.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-06-29T22:57:39.666] [DEBUG] debug-file - Create  resident worker with id: 9.
+[2025-06-29T22:57:39.668] [DEBUG] debug-file - default@CompileArkTS work[17] has been dispatched to worker[9].
+[2025-06-29T22:57:39.668] [DEBUG] debug-file - default@CompileArkTS work[17] is dispatched.
+[2025-06-29T22:57:39.668] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.68994140625
+[2025-06-29T22:57:39.669] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.669] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.671] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-06-29T22:57:39.673] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.12306976318359375
+[2025-06-29T22:57:39.673] [DEBUG] debug-file - runTaskFromQueue task cost before running: 251 ms 
+[2025-06-29T22:57:39.673] [INFO] debug-file - Finished :entry:default@BuildJS... after 3 ms 
+[2025-06-29T22:57:39.674] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:39.674] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:39.675] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-06-29T22:57:39.675] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:39.675] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 1 ms .
+[2025-06-29T22:57:39.675] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.06969451904296875
+[2025-06-29T22:57:39.675] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2025-06-29T22:57:40.289] [DEBUG] debug-file - worker[9] has one work done.
+[2025-06-29T22:57:40.289] [DEBUG] debug-file - CopyResources is end, endTime: 1300058233560000
+[2025-06-29T22:57:40.290] [DEBUG] debug-file - default@CompileArkTS work[17] done.
+[2025-06-29T22:57:40.391] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-06-29T22:57:40.866] [DEBUG] debug-file - Ark compile task finished.finished time is 1300058810326458
+[2025-06-29T22:57:40.866] [DEBUG] debug-file - worker[4] has one work error.
+[2025-06-29T22:57:40.866] [DEBUG] debug-file - default@CompileArkTS work[16] failed.
+[2025-06-29T22:57:40.867] [ERROR] debug-file - Failed :entry:default@CompileArkTS... 
+[2025-06-29T22:57:40.867] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-06-29T22:57:40.867] [DEBUG] debug-file - ERROR: stacktrace = Error: ArkTS Compiler Error
+[33m1 WARN: [33m[33mArkTS:WARN File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/utils/AvSessionmanager.ets:34:11
+ The system capacity of this api 'backgroundTaskManager' is not supported on all devices
+[39m[39m
+[33m2 WARN: [33m[33mArkTS:WARN File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/utils/AvSessionmanager.ets:34:56
+ 'getContext' has been deprecated.
+[39m[39m
+[33m3 WARN: [33m[33mArkTS:WARN File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/utils/AvSessionmanager.ets:34:69
+ The system capacity of this api 'backgroundTaskManager' is not supported on all devices
+[39m[39m
+[31m1 ERROR: [31m10505001 ArkTS Compiler Error
+Error Message: Cannot find module './models/music' or its corresponding type declarations. At File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/models/index.ets:1:15
+[39m
+[39m
+[31mCOMPILE RESULT:FAIL {ERROR:2 WARN:3}[39m
+    at runArkPack (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor-ohos-plugin/node_modules/@ohos/hvigor-arkts-compose/dist/src/arkts-pack.js:1:5479)
+[2025-06-29T22:57:40.867] [ERROR] debug-file - Error: ArkTS Compiler Error
+[33m1 WARN: [33m[33mArkTS:WARN File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/utils/AvSessionmanager.ets:34:11
+ The system capacity of this api 'backgroundTaskManager' is not supported on all devices
+[39m[39m
+[33m2 WARN: [33m[33mArkTS:WARN File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/utils/AvSessionmanager.ets:34:56
+ 'getContext' has been deprecated.
+[39m[39m
+[33m3 WARN: [33m[33mArkTS:WARN File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/utils/AvSessionmanager.ets:34:69
+ The system capacity of this api 'backgroundTaskManager' is not supported on all devices
+[39m[39m
+[31m1 ERROR: [31m10505001 ArkTS Compiler Error
+Error Message: Cannot find module './models/music' or its corresponding type declarations. At File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/models/index.ets:1:15
+[39m
+[39m
+[31mCOMPILE RESULT:FAIL {ERROR:2 WARN:3}[39m
+    at runArkPack (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor-ohos-plugin/node_modules/@ohos/hvigor-arkts-compose/dist/src/arkts-pack.js:1:5479)
+[2025-06-29T22:57:40.868] [WARN] debug-file - BUILD FAILED in 1 s 446 ms 
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/generated/profile/default/ModuleInfo.ts cache.
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgContextInfo is up-to-date.
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/build/cache/default/integrated_hsp/integratedHspCache.json cache.
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/syscap_tool cache by regenerate.
+[2025-06-29T22:57:40.868] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/api/device-define cache by regenerate.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/syscap/default/rpcid.sc cache.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:1 ms .
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/startup/default/startup_config.json cache.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2025-06-29T22:57:40.869] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ark_module.json cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets cache from map.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/mock/mock-config.json5 cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/ets cache.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:1 ms .
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ark_module.json cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-06-29T22:57:40.870] [DEBUG] debug-file - Update task entry:default@BuildJS output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/js cache.
+[2025-06-29T22:57:40.871] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:1 ms .
+[2025-06-29T22:57:40.871] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2025-06-29T22:57:40.876] [DEBUG] debug-file - Cleanup worker 9.
+[2025-06-29T22:57:40.876] [DEBUG] debug-file - Worker 9 has been cleaned up.
+[2025-06-29T22:57:40.876] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-06-29T22:57:40.876] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-06-29T22:57:40.876] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-06-29T22:57:40.878] [DEBUG] debug-file - worker[9] exits with exit code 1.
+[2025-06-29T22:57:40.880] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-06-29T22:57:40.880] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-06-29T22:57:40.880] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-29T22:57:40.881] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-29T22:57:56.246] [DEBUG] debug-file - session manager: set active socket. socketId=rPPRUuqEXwbS0PMuAAAT
+[2025-06-29T22:57:56.248] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-29T22:57:56.253] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-06-29T22:57:56.255] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2025-06-29T22:57:56.259] [DEBUG] debug-file - hvigorfile, resolving /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/hvigorfile.ts
+[2025-06-29T22:57:56.263] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-06-29T22:57:56.263] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-06-29T22:57:56.267] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-06-29T22:57:56.267] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-06-29T22:57:56.267] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-06-29T22:57:56.267] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-06-29T22:57:56.268] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  }
+} in this build.
+[2025-06-29T22:57:56.270] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-06-29T22:57:56.274] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-06-29T22:57:56.288] [DEBUG] debug-file - Sdk init in 18 ms 
+[2025-06-29T22:57:56.292] [DEBUG] debug-file - Project task initialization takes 5 ms 
+[2025-06-29T22:57:56.292] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-06-29T22:57:56.292] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/hvigorfile.ts
+[2025-06-29T22:57:56.293] [DEBUG] debug-file - hvigorfile, resolve finished /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/hvigorfile.ts
+[2025-06-29T22:57:56.294] [DEBUG] debug-file - hvigorfile, resolving /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/hvigorfile.ts
+[2025-06-29T22:57:56.296] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-06-29T22:57:56.297] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-06-29T22:57:56.298] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Target 'default' config: {}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Target 'default' config: {}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": false,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      }
+    }
+  }
+}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Target 'default' config: {}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-06-29T22:57:56.299] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2025-06-29T22:57:56.300] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-06-29T22:57:56.300] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-06-29T22:57:56.300] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/hvigorfile.ts
+[2025-06-29T22:57:56.300] [DEBUG] debug-file - hvigorfile, resolve finished /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/hvigorfile.ts
+[2025-06-29T22:57:56.343] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 43 ms 
+[2025-06-29T22:57:56.344] [DEBUG] debug-file - project has submodules:entry
+[2025-06-29T22:57:56.344] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-06-29T22:57:56.347] [DEBUG] debug-file - load to the disk finished
+[2025-06-29T22:57:56.347] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-06-29T22:57:56.348] [DEBUG] debug-file - Module HeiMa_music Collected Dependency: 
+[2025-06-29T22:57:56.348] [DEBUG] debug-file - Module HeiMa_music's total dependency: 0
+[2025-06-29T22:57:56.348] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-06-29T22:57:56.349] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-06-29T22:57:56.349] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-06-29T22:57:56.350] [DEBUG] debug-file - Configuration phase cost:94 ms 
+[2025-06-29T22:57:56.351] [DEBUG] debug-file - Configuration task cost before running: 102 ms 
+[2025-06-29T22:57:56.352] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.352] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.352] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-06-29T22:57:56.354] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.354] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.465606689453125
+[2025-06-29T22:57:56.354] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-06-29T22:57:56.354] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.354] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.354] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-06-29T22:57:56.354] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:56.355] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.05145263671875
+[2025-06-29T22:57:56.355] [DEBUG] debug-file - runTaskFromQueue task cost before running: 106 ms 
+[2025-06-29T22:57:56.355] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2025-06-29T22:57:56.355] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.355] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.355] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.0839080810546875
+[2025-06-29T22:57:56.356] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.037017822265625
+[2025-06-29T22:57:56.356] [DEBUG] debug-file - runTaskFromQueue task cost before running: 108 ms 
+[2025-06-29T22:57:56.356] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-06-29T22:57:56.357] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.357] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.357] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-06-29T22:57:56.357] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.357] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1002960205078125
+[2025-06-29T22:57:56.357] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-06-29T22:57:56.358] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.358] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.358] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-06-29T22:57:56.358] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:56.359] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.359] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.08805084228515625
+[2025-06-29T22:57:56.359] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-06-29T22:57:56.359] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.359] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.359] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-06-29T22:57:56.359] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.359] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.360] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.03723907470703125
+[2025-06-29T22:57:56.360] [DEBUG] debug-file - runTaskFromQueue task cost before running: 111 ms 
+[2025-06-29T22:57:56.360] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-06-29T22:57:56.360] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.360] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.360] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-06-29T22:57:56.361] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:56.361] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.361] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.2016143798828125
+[2025-06-29T22:57:56.361] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgContextInfo...  
+[2025-06-29T22:57:56.362] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.362] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.362] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-06-29T22:57:56.362] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/build/cache/default/integrated_hsp/integratedHspCache.json' does not exist.
+[2025-06-29T22:57:56.362] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.364] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.364] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.364] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory -4.222679138183594
+[2025-06-29T22:57:56.364] [DEBUG] debug-file - runTaskFromQueue task cost before running: 115 ms 
+[2025-06-29T22:57:56.364] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2025-06-29T22:57:56.365] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.365] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.365] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-06-29T22:57:56.365] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.365] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.365] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.03806304931640625
+[2025-06-29T22:57:56.365] [DEBUG] debug-file - runTaskFromQueue task cost before running: 116 ms 
+[2025-06-29T22:57:56.365] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-06-29T22:57:56.365] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.365] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.366] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-06-29T22:57:56.366] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.366] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.13060760498046875
+[2025-06-29T22:57:56.366] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2025-06-29T22:57:56.367] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.367] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.367] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-06-29T22:57:56.367] [DEBUG] debug-file - File: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-06-29T22:57:56.367] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:56.367] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/syscap/default/rpcid.sc' does not exist.
+[2025-06-29T22:57:56.367] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.367] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.367] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.368] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.130401611328125
+[2025-06-29T22:57:56.368] [DEBUG] debug-file - runTaskFromQueue task cost before running: 119 ms 
+[2025-06-29T22:57:56.368] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 1 ms 
+[2025-06-29T22:57:56.368] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.368] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.368] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-06-29T22:57:56.369] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.369] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.1056976318359375
+[2025-06-29T22:57:56.369] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-06-29T22:57:56.370] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.370] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.370] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-06-29T22:57:56.371] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.371] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.19225311279296875
+[2025-06-29T22:57:56.371] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-06-29T22:57:56.372] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.372] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.372] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2025-06-29T22:57:56.372] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:56.372] [DEBUG] debug-file - entry:default@ProcessStartupConfig is not up-to-date, since the output file '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/startup/default/startup_config.json' does not exist.
+[2025-06-29T22:57:56.373] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.373] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.373] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.373] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.21479034423828125
+[2025-06-29T22:57:56.373] [DEBUG] debug-file - runTaskFromQueue task cost before running: 124 ms 
+[2025-06-29T22:57:56.373] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 2 ms 
+[2025-06-29T22:57:56.374] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.374] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.374] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-06-29T22:57:56.374] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.374] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.374] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.05242919921875
+[2025-06-29T22:57:56.374] [DEBUG] debug-file - runTaskFromQueue task cost before running: 125 ms 
+[2025-06-29T22:57:56.374] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2025-06-29T22:57:56.375] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.375] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.375] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-06-29T22:57:56.375] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-06-29T22:57:56.376] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.376] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.13311767578125
+[2025-06-29T22:57:56.376] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2025-06-29T22:57:56.377] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.377] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.378] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-06-29T22:57:56.382] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 3 ms .
+[2025-06-29T22:57:56.382] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.641998291015625
+[2025-06-29T22:57:56.383] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-06-29T22:57:56.383] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.383] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.384] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-06-29T22:57:56.384] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.384] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.10402679443359375
+[2025-06-29T22:57:56.384] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2025-06-29T22:57:56.385] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.385] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.385] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-06-29T22:57:56.385] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-06-29T22:57:56.389] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 4 ms .
+[2025-06-29T22:57:56.389] [DEBUG] debug-file - entry : default@CompileResource cost memory -4.919380187988281
+[2025-06-29T22:57:56.390] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2025-06-29T22:57:56.390] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.390] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.391] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-06-29T22:57:56.391] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:56.391] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.391] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.0620269775390625
+[2025-06-29T22:57:56.391] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2025-06-29T22:57:56.391] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.391] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.392] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-06-29T22:57:56.392] [DEBUG] debug-file - obfuscationOptions: undefined
+[2025-06-29T22:57:56.397] [DEBUG] debug-file - build config:
+[2025-06-29T22:57:56.397] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/base/profile',
+  etsLoaderPath: '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/build-tools/ets-loader',
+  modulePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music',
+  compileSdkVersion: 18,
+  compatibleSdkVersion: 18,
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***c',
+  etsLoaderVersion: '5.1.0.110',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '59ffc978434775850d61e24c568587d2',
+  externalApiPaths: [ '/Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/generated/profile/default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 18,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: {
+    caseSensitiveCheck: true,
+    useNormalizedOHMUrl: true,
+    noExternalImportByPath: true
+  },
+  buildDir: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build',
+  deviceTypes: [ 'phone', 'tablet', '2in1', 'car', 'wearable', 'tv' ],
+  useNormalizedOHMUrl: true,
+  pkgContextInfo: {
+    '@ohos/hypium': {
+      packageName: '@ohos/hypium',
+      bundleName: '*****',
+      moduleName: '',
+      version: '1.0.21',
+      entryPath: 'index.js',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    '@ohos/hamock': {
+      packageName: '@ohos/hamock',
+      bundleName: '*****',
+      moduleName: '',
+      version: '1.0.0',
+      entryPath: 'index.ets',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    entry: {
+      packageName: 'entry',
+      bundleName: '*****',
+      moduleName: '',
+      version: '',
+      entryPath: 'src/main/',
+      isSO: false,
+      dependencyAlias: ''
+    }
+  },
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: {
+    requestPermissions: [ [Object], [Object] ],
+    definePermissions: undefined
+  },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  useTscResolve: false,
+  singleFileEmit: false,
+  userProjectConfig: {
+    autoLazyImport: false,
+    allowEmptyBundleName: false,
+    reExportCheckMode: 'noCheck'
+  },
+  autoLazyImport: false,
+  allowEmptyBundleName: false,
+  reExportCheckMode: 'noCheck',
+  arkCompileCachePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/cache/default/default@CompileArkTS/esmodule',
+  aceModuleJsonPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ark_module.json',
+  appResource: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ResourceTable.txt',
+  rawFileResource: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/rawfile',
+  resourceTableHash: '0e5979b5d71291586313b19ff9930263',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:18:5.1.0.110:Release',
+  aceModuleRoot: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/supervisual',
+  aceBuildJson: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/loader.json',
+  cachePath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/cache/default/default@CompileArkTS/esmodule/debug',
+  aceModuleBuild: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    },
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/src/ohosTest/ets': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    },
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    },
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    },
+    '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music': {
+      moduleName: 'HeiMa_music',
+      modulePkgPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music',
+      belongProjectPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music'
+    }
+  },
+  pkgJsonFileHash: 'e7ccba98719fd89b39b3cfc46f62493a',
+  allModulePaths: [ '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/mock/mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  uiTransformOptimization: false,
+  otherPaths: {
+    'entry/*': [ '../*', '../../../build/default/generated/profile/default/*' ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-06-29T22:57:56.397] [DEBUG] debug-file - Compile arkts with external api path: /Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - default@CompileArkTS work[18] is submitted.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - default@CompileArkTS work[18] is pushed to ready queue.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - default@CompileArkTS work[18] has been dispatched to worker[4].
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - default@CompileArkTS work[18] is dispatched.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - CopyResources startTime: 1300074341995958
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - default@CompileArkTS work[19] is submitted.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - default@CompileArkTS work[19] is pushed to ready queue.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-06-29T22:57:56.398] [DEBUG] debug-file - Create  resident worker with id: 9.
+[2025-06-29T22:57:56.399] [DEBUG] debug-file - default@CompileArkTS work[19] has been dispatched to worker[9].
+[2025-06-29T22:57:56.399] [DEBUG] debug-file - default@CompileArkTS work[19] is dispatched.
+[2025-06-29T22:57:56.399] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.2759170532226562
+[2025-06-29T22:57:56.399] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.399] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.401] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-06-29T22:57:56.402] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.123260498046875
+[2025-06-29T22:57:56.402] [DEBUG] debug-file - runTaskFromQueue task cost before running: 153 ms 
+[2025-06-29T22:57:56.402] [INFO] debug-file - Finished :entry:default@BuildJS... after 2 ms 
+[2025-06-29T22:57:56.403] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.403] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.404] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-06-29T22:57:56.404] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:56.404] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.404] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.07177734375
+[2025-06-29T22:57:56.404] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2025-06-29T22:57:56.757] [DEBUG] debug-file - worker[9] has one work done.
+[2025-06-29T22:57:56.757] [DEBUG] debug-file - CopyResources is end, endTime: 1300074700806000
+[2025-06-29T22:57:56.757] [DEBUG] debug-file - default@CompileArkTS work[19] done.
+[2025-06-29T22:57:56.757] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-06-29T22:57:56.805] [INFO] debug-file - [33mWARN: [33m[33mArkTS:WARN File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/utils/AvSessionmanager.ets:34:11
+ The system capacity of this api 'backgroundTaskManager' is not supported on all devices
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/utils/AvSessionmanager.ets:34:56
+ 'getContext' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets/utils/AvSessionmanager.ets:34:69
+ The system capacity of this api 'backgroundTaskManager' is not supported on all devices
+[39m[39m
+
+[2025-06-29T22:57:56.806] [DEBUG] debug-file - Ark compile task finished.finished time is 1300074749474166
+[2025-06-29T22:57:56.806] [DEBUG] debug-file - worker[4] has one work done.
+[2025-06-29T22:57:56.808] [DEBUG] debug-file - default@CompileArkTS work[18] done.
+[2025-06-29T22:57:56.808] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-06-29T22:57:56.809] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 414 ms 
+[2025-06-29T22:57:56.809] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.809] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.809] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-06-29T22:57:56.810] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-06-29T22:57:56.810] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.810] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.06420135498046875
+[2025-06-29T22:57:56.810] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2025-06-29T22:57:56.810] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.810] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.812] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-06-29T22:57:56.814] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/ets' has been changed.
+[2025-06-29T22:57:56.814] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 2 ms .
+[2025-06-29T22:57:56.814] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.814] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.815] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=utf-8',
+  '-jar',
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/stripped_native_libs/default',
+  '--json-path',
+  '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/package/default/module.json',
+  '--resources-path',
+  '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources',
+  '--index-path',
+  '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources.index',
+  '--pack-info-path',
+  '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/outputs/default/pack.info',
+  '--out-path',
+  '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/outputs/default/entry-default-unsigned.hap',
+  '--ets-path',
+  '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/ets',
+  '--pkg-context-path',
+  '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/pkgContextInfo.json'
+]
+[2025-06-29T22:57:56.849] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"pack success"}
+[2025-06-29T22:57:56.851] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.931884765625
+[2025-06-29T22:57:56.851] [DEBUG] debug-file - runTaskFromQueue task cost before running: 602 ms 
+[2025-06-29T22:57:56.851] [INFO] debug-file - Finished :entry:default@PackageHap... after 39 ms 
+[2025-06-29T22:57:56.852] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.852] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.853] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-06-29T22:57:56.853] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in /Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/build-profile.json5.
+[2025-06-29T22:57:56.853] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file '/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/outputs/default/entry-default-unsigned.hap' has been changed.
+[2025-06-29T22:57:56.853] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2025-06-29T22:57:56.853] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.853] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.853] [DEBUG] debug-file - entry : default@SignHap cost memory 0.254119873046875
+[2025-06-29T22:57:56.853] [DEBUG] debug-file - runTaskFromQueue task cost before running: 604 ms 
+[2025-06-29T22:57:56.853] [INFO] debug-file - Finished :entry:default@SignHap... after 1 ms 
+[2025-06-29T22:57:56.854] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.854] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.854] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2025-06-29T22:57:56.855] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-06-29T22:57:56.855] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-06-29T22:57:56.855] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.19397735595703125
+[2025-06-29T22:57:56.855] [DEBUG] debug-file - runTaskFromQueue task cost before running: 607 ms 
+[2025-06-29T22:57:56.855] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 2 ms 
+[2025-06-29T22:57:56.856] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-06-29T22:57:56.856] [DEBUG] debug-file - entry : assembleHap cost memory 0.01151275634765625
+[2025-06-29T22:57:56.856] [DEBUG] debug-file - runTaskFromQueue task cost before running: 607 ms 
+[2025-06-29T22:57:56.856] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-06-29T22:57:56.857] [DEBUG] debug-file - BUILD SUCCESSFUL in 608 ms 
+[2025-06-29T22:57:56.857] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-06-29T22:57:56.857] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/generated/profile/default/ModuleInfo.ts cache.
+[2025-06-29T22:57:56.857] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgContextInfo is up-to-date.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/build/cache/default/integrated_hsp/integratedHspCache.json cache.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/syscap_tool cache by regenerate.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/api/device-define cache by regenerate.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/syscap/default/rpcid.sc cache.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:1 ms .
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-06-29T22:57:56.858] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/startup/default/startup_config.json cache.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ark_module.json cache by regenerate.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-06-29T22:57:56.859] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/main/ets cache by regenerate.
+[2025-06-29T22:57:56.860] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-06-29T22:57:56.860] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-06-29T22:57:56.860] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/src/mock/mock-config.json5 cache by regenerate.
+[2025-06-29T22:57:56.860] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/ets cache.
+[2025-06-29T22:57:56.860] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:2 ms .
+[2025-06-29T22:57:56.860] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/ark_module.json cache by regenerate.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Update task entry:default@BuildJS output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/js cache.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:1 ms .
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/stripped_native_libs/default cache by regenerate.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-06-29T22:57:56.861] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources cache by regenerate.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/res/default/resources.index cache by regenerate.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/outputs/default/pack.info cache by regenerate.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/ets cache from map.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/ets/sourceMaps.map cache by regenerate.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/outputs/default/entry-default-unsigned.hap cache.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/source_map/default/sourceMaps.map cache.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/outputs/default/mapping/sourceMaps.map cache.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:2 ms .
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@SignHap input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/outputs/default/entry-default-unsigned.hap cache from map.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Update task entry:default@SignHap output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/outputs/default/entry-default-signed.hap cache.
+[2025-06-29T22:57:56.862] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-06-29T22:57:56.863] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/loader_out/default/ets/sourceMaps.map cache by regenerate.
+[2025-06-29T22:57:56.863] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/intermediates/libs/default cache by regenerate.
+[2025-06-29T22:57:56.863] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:/Users/quayuzhong/Desktop/DecEco_code/HeiMa_music/entry/build/default/outputs/default/symbol cache.
+[2025-06-29T22:57:56.863] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:1 ms .
+[2025-06-29T22:57:56.868] [DEBUG] debug-file - Cleanup worker 9.
+[2025-06-29T22:57:56.868] [DEBUG] debug-file - Worker 9 has been cleaned up.
+[2025-06-29T22:57:56.868] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-06-29T22:57:56.868] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-06-29T22:57:56.868] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-06-29T22:57:56.869] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2025-06-29T22:57:56.870] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-06-29T22:57:56.870] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-06-29T22:57:56.870] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-29T22:57:56.871] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-29T22:57:56.871] [DEBUG] debug-file - worker[9] exits with exit code 1.
